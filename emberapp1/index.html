@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ember Starter Kit</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script src="js/libs/modernizr.custom.js"></script>
+</head>
+<body>
+<script type="text/x-handlebars" >
+
+    <div id="st-container" class="st-container">
+
+        <nav class="st-menu st-effect-1" id="menu-1">
+        <h2 class="icon icon-truck">OMS</h2>
+        <ul>
+          <li><a class="icon icon-male" href="#">Customer</a></li>
+          <li><a class="icon icon-key" href="#">Motor</a></li>
+        
+        
+        </ul>
+      </nav>
+      
+      <div class="st-content"><!-- this is the wrapper for the content -->
+          <div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
+            <!-- Top Navigation -->
+                      <div>
+              <div id="st-trigger-effects" align="right">
+                <button data-effect="st-effect-1" class="icon icon-settings" style="width:3%" ></button>
+                
+              </div>
+              
+            </div><!-- /main -->
+          </div><!-- /st-content-inner -->
+     </div><!-- /st-content -->
+        
+{{outlet}}
+  </script>
+
+  
+  <script src="js/libs/jquery-1.10.2.js"></script>
+  <script src="js/libs/handlebars-1.1.2.js"></script>
+  <script src="js/libs/ember-1.6.1.js"></script>
+  <script src="js/app.js"></script>  
+  <script src="js/libs/classie.js"></script>
+  <script src="js/libs/sidebarEffects.js"></script>
+  
+  
+
+</body>
+</html>
